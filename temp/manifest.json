@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "1ba5e350-3965-11ed-b8bb-39fc037e7efd",
+  "version": "0.0.1",
+  "packageName": "msstarred",
+  "developer": {
+    "name": "Vinita Tahiliani",
+    "websiteUrl": "https://c6c4-2404-f801-8028-3-1d5a-1421-cc1b-3783.ngrok.io",
+    "privacyUrl": "https://c6c4-2404-f801-8028-3-1d5a-1421-cc1b-3783.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://c6c4-2404-f801-8028-3-1d5a-1421-cc1b-3783.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "starred",
+    "full": "starred"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "8662139a-ecd1-4867-8870-dc1fe294b905",
+      "name": "starred Tab",
+      "contentUrl": "https://c6c4-2404-f801-8028-3-1d5a-1421-cc1b-3783.ngrok.io/starredTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    },
+    {
+      "entityId": "starredTab",
+      "name": "Personal Tab ",
+      "contentUrl": "https://c6c4-2404-f801-8028-3-1d5a-1421-cc1b-3783.ngrok.io/starredTab/starred.html",
+      "websiteUrl": "https://c6c4-2404-f801-8028-3-1d5a-1421-cc1b-3783.ngrok.io",
+      "scopes": [ "personal" ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "c6c4-2404-f801-8028-3-1d5a-1421-cc1b-3783.ngrok.io"
+  ],
+  "showLoadingIndicator": true
+}
